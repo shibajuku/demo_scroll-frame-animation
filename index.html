@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo - Scroll Frame Animation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hilosiva/OlayoutCSS@v1.0.8/cdn/olayout.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Cinzel:wght@400..900&display=swap" rel="stylesheet" />
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body data-color="white">
+    <div data-position="relative" data-z-index="0" style="min-height: 400vh">
+      <header data-position="sticky" data-inset="t-0">
+        <h1 class="title" data-text="center" data-p="y-6">The Princess Mononoke</h1>
+      </header>
+
+      <div class="canvasWrap" data-position="sticky" data-inset="t-0" data-z-index="-1">
+        <canvas width="1920" height="1038" data-object="cover" data-scroll-frame-target></canvas>
+      </div>
+      <section>
+        <div data-container style="height: 100vh">
+          <div data-position="sticky" data-inset="t-20" data-p="t-20 b-4" data-m="t--20">
+            <h2 class="heading">もののけ姫</h2>
+          </div>
+        </div>
+        <div data-container>
+          <div class="contents" data-m="t-6" data-space="y-4" data-text="keep">
+            <p>
+              もののけ姫は、<wbr />アシタカとサンの物語。<wbr />たたり神に矢を射って<wbr />故郷から出て行くことになった<wbr />アシタカと、<wbr />山犬に育てられ、<wbr />山で暮らしているサン。<wbr />
+            </p>
+            <p>中学生の頃に<wbr />何度も映画館に<wbr />見に行った作品。<wbr />ジブリの中でも<wbr />かなり好きな作品で、<wbr />当時はセリフも結構覚えていた。<wbr /></p>
+            <p>会いにいくよ。<wbr />ヤックルに乗って。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
