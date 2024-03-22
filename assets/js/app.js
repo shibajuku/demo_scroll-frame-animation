@@ -2,7 +2,7 @@ class ScrollFrameAnimation {
   constructor(options) {
     this.defaultOptions = {
       target: "[data-scroll-frame-target]",
-      filePath: "/assets/img/",
+      filePath: "../assets/img/",
       prefix: "",
       ext: ".jpg",
       amount: 30,
